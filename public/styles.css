@@ -1,0 +1,34 @@
+body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
+.btn{
+  margin:2%;
+}
+
+.quotes{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10% 20%;
+}
+
+.author{
+  align-self: flex-end;
+}
+
+.randomQuotes{
+  display: none;
+}
+
+.twitter{
+  display: block;
+}
